@@ -10,5 +10,53 @@
     <link rel="stylesheet" href="styles/index.css">  
 </head>
 <body>
+    <header>
+        <img src="assets/logo.png" alt="">
+    </header>
+    <main>
+        <section>
+            <h2>ONLINE - GRATUITO</h2>
+            <h1>SORTEADOR DE NÚMEROS</h1>
+        </section>
+        <section>
+            <h3>QUERO SORTEAR:</h3>
+            <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+            <div>
+                <div>
+                    <label for="qtd_number">NÚMEROS</label>
+                    <input name="qtd_number" id="qtd_number" type="number">
+                </div>
+                <div>
+                    <label for="from_number">DE</label>
+                    <input name="from_number" id="from_number" type="number">
+                </div>
+                <div>
+                    <label for="to_number">ATÉ</label>
+                    <input name="to_number" id="to_number" type="number">
+                </div>
+            </div>
+            <div>
+                <input name="checkbox" id="checkbox" type="checkbox">
+                <label for="checkbox">Não repetir número</label>
+            </div>
+            <button>SORTEAR</button>
+        </section>
+        <Footer>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <span>Como funciona o sorteador de números?</span>
+                </div>
+                <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <span>Posso escolher o intervalo dos números?</span>
+                </div>
+                <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+            </div>
+        </Footer>
+    </main>
 </body>
 </html>

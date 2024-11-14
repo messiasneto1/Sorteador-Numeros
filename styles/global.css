@@ -30,9 +30,19 @@
 }
 
 
+html {
+    color: var(--content-primary);
+}
 
-
-body{
+body {
     background-image: url('../assets/bg.png');
     background-color: var(--background-primary);
+    margin: 2.75rem 2.25rem;
+}
+
+
+@media (width >= 80em) {
+    body {
+        margin: 4.75rem 8.125rem;
+    }
 }
