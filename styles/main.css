@@ -1,0 +1,10 @@
+main {
+    & section {
+        & h2{
+            margin-bottom: 0.75rem;
+            font: 1rem/1.5 'Roboto Mono', 'sans-serif';
+            color: var(--gradient-content);
+        }
+
+    }
+}
